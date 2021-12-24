@@ -45,6 +45,7 @@ section p {
   color: var(--dark-grayish-magenta);
   font-weight: 500;
   line-height: 2.2rem;
+  margin: 0 auto;
 }
 
 .rating {
