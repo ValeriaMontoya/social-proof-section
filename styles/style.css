@@ -9,7 +9,7 @@
   /* Typography */
   --primary-font: "Spartan", sans-serif;
   --font-size-medium: 1.4rem;
-  --font-size-large: 2.6rem;
+  --font-size-large: 3.2rem;
 }
 
 * {
@@ -26,6 +26,10 @@ body {
   font-family: var(--primary-font);
   font-size: var(--font-size-medium);
   text-align: center;
+  background-image: url("../images/bg-pattern-top-mobile.svg"),
+    url("../images/bg-pattern-bottom-mobile.svg");
+  background-repeat: no-repeat;
+  background-position: left 0 top 0, right 0 bottom 0;
 }
 
 .container {
@@ -33,10 +37,11 @@ body {
 }
 
 section h1 {
-  width: 85%;
+  width: 90%;
   font-size: var(--font-size-large);
   font-weight: 700;
   color: var(--very-dark-magenta);
+  line-height: 3.2rem;
   margin: 0 auto 20px;
 }
 
@@ -111,5 +116,3 @@ section p {
 .attribution a {
   color: var(--very-dark-magenta);
 }
-
-/* TODO: Add background image to both versions and fix the footer */
